@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="placeofshapes">
+        <div class="cir  general" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="rec  general" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="tri  general" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="squ  general" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="penta  general" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="hexa  general" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </div>
+    <div class="shapes">
+        <div class="g" id="circle" draggable="true" ondragstart="drag(event)"></div>
+        <div class="g" id="rectangle" draggable="true" ondragstart="drag(event)"></div>
+        <div class="g" id="triangle" draggable="true" ondragstart="drag(event)"></div>
+        <div class="g" id="square" draggable="true" ondragstart="drag(event)"></div>
+        <div class="g" id="pentagone" draggable="true" ondragstart="drag(event)"></div>
+        <div class="g" id="hexagone" draggable="true" ondragstart="drag(event)"></div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
